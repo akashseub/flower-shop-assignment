@@ -17,7 +17,7 @@ body {
     color: #FFFFFF;
 }
 
-.content-width {
+.content-primary-width {
     width: 1440px;
     margin: auto;
 }
@@ -135,4 +135,22 @@ header p {
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+
+/* information section */
+.info-section {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 128px;
+}
+
+.info-content{
+    padding: 70px 0;
+    text-align: center;
+}
+
+.info-content p{
+    padding-top: 20px;
 }
