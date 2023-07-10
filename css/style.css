@@ -214,11 +214,11 @@ header p {
     padding-bottom: 20px;
 }
 
-.social-section .content-title p{
+.social-section .content-title p {
     padding-bottom: 40px;
 }
 
-.social-section .content{
+.social-section .content {
     display: flex;
     justify-content: space-around;
     margin-bottom: 128px;
@@ -267,4 +267,23 @@ header p {
 
 .subscription-section p {
     padding: 20px 0 40px 0;
+}
+
+/* footer section  */
+footer {
+    background: #111010;
+    color: white;
+    padding: 128px 649px;
+    text-align: center;
+}
+
+footer p {
+    padding: 20px 0 40px 0;
+}
+
+footer #all-right-reserved {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
 }
