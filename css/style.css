@@ -1,0 +1,45 @@
+/* common css styles  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+    color: #FFFFFF;
+}
+
+/* header section style */
+header {
+    background-color: #E554731A;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+header p {
+    margin: 20px 0;
+    max-width: 550px;
+}
+
+.header-image{
+    margin-top: 50px;
+}
+
+.header-section-content {
+    display: flex;
+    margin: 0 240px;
+}
+
+.header-text-content {
+    max-width: 700px;
+    margin-top: 197px;
+}
