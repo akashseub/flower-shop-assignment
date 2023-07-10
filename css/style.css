@@ -192,6 +192,79 @@ header p {
     padding-bottom: 30px;
 }
 
-.sale-content .sale-image{
+.sale-content .sale-image {
     margin: 100px 0;
+}
+
+/* social section */
+.social-section {
+    text-align: center;
+}
+
+.social-section .content-title {
+    max-width: 594px;
+    margin: auto;
+}
+
+.social-section .content-title h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.social-section .content-title p{
+    padding-bottom: 40px;
+}
+
+.social-section .content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 128px;
+}
+
+.social-image1 {
+    height: 396px;
+    width: 343px;
+}
+
+.social-image2 {
+    height: 396px;
+    width: 343px;
+}
+
+.social-image3 {
+    height: 396px;
+    width: 343px;
+}
+
+.social-image4 {
+    height: 396px;
+    width: 343px;
+}
+
+/* subscription section styles */
+.subscription-section {
+    height: 449px;
+    background-image: url('/images/rectangle\ 9.png');
+    text-align: center;
+    padding: 122px 0 122px 0;
+    background-repeat: no-repeat;
+    margin-top: 128px;
+}
+
+.subscription-section .input-field {
+    width: 700px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.subscription-section p {
+    padding: 20px 0 40px 0;
 }
